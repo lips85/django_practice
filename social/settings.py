@@ -35,21 +35,21 @@ CUSTOM_APPS = [
 
 AUTHENTICATION_BACKENDS = (
     "social_core.backends.google.GoogleOAuth2",
-    "social_core.backends.github.GithubOAuth2",
-    "social_core.backends.facebook.FacebookOAuth2",
-    "social_core.backends.kakao.KakaoOAuth2",
-    "social_core.backends.naver.NaverOAuth2",
-    "django.contrib.auth.backends.ModelBackend",
+    # "social_core.backends.github.GithubOAuth2",
+    # "social_core.backends.facebook.FacebookOAuth2",
+    # "social_core.backends.kakao.KakaoOAuth2",
+    # "social_core.backends.naver.NaverOAuth2",
+    # "django.contrib.auth.backends.ModelBackend",
 )
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = "<your-google-client-id>"
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = "<your-google-client-secret>"
-SOCIAL_AUTH_GITHUB_KEY = "<your-github-client-id>"
-SOCIAL_AUTH_GITHUB_SECRET = "<your-github-client-secret>"
-SOCIAL_AUTH_KAKAO_KEY = "<your-kakao-client-id>"
-SOCIAL_AUTH_KAKAO_SECRET = "<your-kakao-client-secret>"
-SOCIAL_AUTH_NAVER_KEY = "<your-naver-client-id>"
-SOCIAL_AUTH_NAVER_SECRET = "<your-naver-client-secret>"
+# SOCIAL_AUTH_GITHUB_KEY = "<your-github-client-id>"
+# SOCIAL_AUTH_GITHUB_SECRET = "<your-github-client-secret>"
+# SOCIAL_AUTH_KAKAO_KEY = "<your-kakao-client-id>"
+# SOCIAL_AUTH_KAKAO_SECRET = "<your-kakao-client-secret>"
+# SOCIAL_AUTH_NAVER_KEY = "<your-naver-client-id>"
+# SOCIAL_AUTH_NAVER_SECRET = "<your-naver-client-secret>"
 
 
 SYSTEMS_APPS = [
